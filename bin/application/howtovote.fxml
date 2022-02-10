@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="359.0" prefWidth="593.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.first_screen_Controller">
+<children>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="41.0" style="&#10;" text="ELECTRONIC VOTING MACHINE" textAlignment="CENTER" textFill="#d3d3d3" wrapText="false">
+         <font>
+            <Font name="Calibri Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="419.0" layoutY="293.0" mnemonicParsing="false" onAction="#exit" prefHeight="32.0" prefWidth="133.0" text="EXIT">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="52.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select &quot;Cast Vote&quot;. From the displayed candidates and parties, select your desired candidate and press &quot;Vote&quot;." wrappingWidth="488.923828125">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Label alignment="CENTER" layoutX="241.0" layoutY="103.0" style="&#10;" text="HOW TO VOTE" textAlignment="CENTER" textFill="#d3d3d3" wrapText="false">
+         <font>
+            <Font name="Calibri Bold Italic" size="17.0" />
+         </font>
+      </Label>
+</children>
+</AnchorPane>

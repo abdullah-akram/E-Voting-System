@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="359.0" prefWidth="566.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.first_screen_Controller">
+<children>
+  <Label alignment="CENTER" layoutX="235.0" layoutY="82.0" prefHeight="22.0" prefWidth="97.0" style="&#10;" text="MENU" textAlignment="CENTER" textFill="WHITE" wrapText="false">
+    <font>
+      <Font name="Calibri Bold Italic" size="18.0" />
+    </font>
+  </Label>
+      <Button layoutX="213.0" layoutY="148.0" mnemonicParsing="false" onAction="#AddNewPartyy" prefHeight="32.0" prefWidth="133.0" text="ADD NEW PARTY">
+         <font>
+            <Font name="Arial Bold" size="11.0" />
+         </font>
+      </Button>
+      <Button layoutX="213.0" layoutY="111.0" mnemonicParsing="false" onAction="#HowToVote" prefHeight="32.0" prefWidth="133.0" text="HOW TO VOTE">
+         <font>
+            <Font name="Arial" size="11.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="72.0" layoutY="29.0" style="&#10;" text="ELECTRONIC VOTING MACHINE" textAlignment="CENTER" textFill="#d3d3d3" wrapText="false">
+         <font>
+            <Font name="Calibri Bold Italic" size="34.0" />
+         </font>
+      </Label>
+      <Button layoutX="213.0" layoutY="186.0" mnemonicParsing="false" onAction="#AddNewCandidatee" prefHeight="32.0" prefWidth="133.0" text="ADD NEW CANDIDATE">
+         <font>
+            <Font name="Arial Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="213.0" layoutY="224.0" mnemonicParsing="false" onAction="#CalculatePercentage" prefHeight="32.0" prefWidth="133.0" text="CALCULATE VOTES %">
+         <font>
+            <Font name="Arial Bold" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="213.0" layoutY="263.0" mnemonicParsing="false" onAction="#CheckResults" prefHeight="32.0" prefWidth="133.0" text="CHECK RESULTS">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="410.0" layoutY="307.0" mnemonicParsing="false" onAction="#exit" prefHeight="32.0" prefWidth="133.0" text="EXIT">
+         <font>
+            <Font name="Arial" size="10.0" />
+         </font>
+      </Button>
+</children>
+</AnchorPane>

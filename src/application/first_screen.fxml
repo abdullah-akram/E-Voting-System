@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="359.0" prefWidth="566.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.first_screen_Controller">
+<children>
+  <Label alignment="CENTER" layoutX="108.0" layoutY="182.0" prefHeight="22.0" prefWidth="97.0" style="&#10;" text="LOGIN AS" textAlignment="CENTER" textFill="#d3d3d3" wrapText="false">
+    <font>
+      <Font name="Calibri Italic" size="18.0" />
+    </font>
+  </Label>
+      <Button layoutX="255.0" layoutY="151.0" mnemonicParsing="false" onAction="#LoginCredentialsAdmin" prefHeight="42.0" prefWidth="97.0" text="ADMIN">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="255.0" layoutY="207.0" mnemonicParsing="false" onAction="#LoginCredentialsVoter" prefHeight="42.0" prefWidth="97.0" text="VOTER">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="41.0" style="&#10;" text="ELECTRONIC VOTING MACHINE" textAlignment="CENTER" textFill="#d3d3d3" wrapText="false">
+         <font>
+            <Font name="Calibri Bold Italic" size="34.0" />
+         </font>
+      </Label>
+</children>
+</AnchorPane>
